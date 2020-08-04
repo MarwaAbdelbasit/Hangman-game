@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\hangman.css">
+    <title>Hangman game</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="game-info">
+        <div class="game-name">
+            Hangman
+        </div>
+
+        <div class="category">
+          Word from: <span></span>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="hangman-draw">
+          <div class="the-draw">
+            <div class="stand"></div>
+            <div class="hang"></div>
+            <div class="rope"></div>
+            <div class="man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="letters"></div>
+      </div>
+
+      <hr>
+
+      <div class="letters-guess"></div>
+
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js\hangman.js"></script>
+  </body>
+</html>
